@@ -1,0 +1,4 @@
+[alias]
+  l = "log --oneline --decorate --graph --all -n 10"
+  hello-world = "!f() { echo "Hello World"; }; f"
+  hello = "!f() { echo "Hello, ${1}"; }; f"

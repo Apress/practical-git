@@ -1,0 +1,2 @@
+first file
+\n additional content

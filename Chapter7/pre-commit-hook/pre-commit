@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Running Hook"
+
+if [ `git rev-parse --abbrev-ref HEAD` = master ] 
+then
+    echo "You can't commit to master"
+    exit 1
+else
+    echo "Commit freely on this branch"
+    exit 0
+fi
